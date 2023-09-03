@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .C2_1 {
+    display: flex;
+    background-color: blue;
+  }
+  
+  .C2_3 {
+    flex: 1;
+    background-color: red;
+  }
+  
+  .C2_4 {
+    flex: 4;
+    background-color: green;
+  }
+  
+  .C3_1
+  {
+    display:flex;
+    background-color: blueviolet;
+    flex:0.5;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  .container {
+    border: 5px, solid red;
+    display: flex;
+    background-color: rgb(233, 245, 5);
+    align-items: stretch ;
+    font-size: larger;
+  }
+
+
+  .C3_2
+  {
+    display:flex;
+    background-color: rgb(182, 238, 50);
+    flex:0.5;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: blueviolet;
+    flex: 0.5;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  
+  .f {
+    border: 15px solid black;
+    background-color: #00fdff;
+    display: flex;
+  }
+
+  .C5_1
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+
+  }
+
+
+  .C6
+  {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .C6 > p {
+    border-style: double;
+    border-width: 3px;
+    border-color: green;
+    font-size: 300px;
+  }
